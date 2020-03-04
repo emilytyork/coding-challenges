@@ -1,31 +1,46 @@
-// function evenOdd(x,y) {
-// 	z = (x+y)
-// 	if ( z % 2 == 0) {
-// 	console.log( z + " is even") 
-// } else {
-// 		console.log (z + " is odd")
+// Write a function that takes three arguments - all numbers - adds them together, 
+// split the result in 3 and displays the result on the console.
+
+// function challenge(x,y,z) {
+// 	var num = (x+y+z)/3;
+// 	console.log(num)
+// }
+
+
+// Write a function that takes an array of numbers as an argument.
+// Then it lists ONLY the numbers that are divisible by 3  
+// If there are not such numbers console.log(“Sorry, no 3-divisible numbers”). (Think of push() method)
+
+// function three (array) {
+// 	var array = [];
+// 	for (var i = 0; i < array.length; i++) {
+// 	if (array[i] % 3 == 0 ) {
+// 		array.push(array[i])
+// 	}}}
+
+// console.log ([1,2,3])
+
+// function challenge2 (array) {
+// 	var empty = [];
+// for (var i = 0; i < array.length; i++) {
+// 	if (array[i] % 3 === 0) {
+// 		empty.push (array[i]);
 // 	}}
+// }
 
-// function higherLower (x,y) {
-// 	z = (x/y) 
-// 		if (z > 0) {
-// 			console.log (x + " divided by " + y + " is greater than 0")
-// 		}
-// 		else if (z < 0) {
-// 			console.log (x + " divided by " + y + " is less than 0")
+var empty = [];
 
-// 		}
-// 		else {
-// 			console.log (x + " divided by " + y + " is 0")
-// 	}}
-
-
-function odd (array) {
-	for (var i = 0; i < array.length; i++) {
-	if (array[i] % 2 !== 0 ) {
-	console.log(array);
+function challenge2 (array) {
+for (var i = 0; i < array.length; i++) {
+	if (array[i] % 3 === 0) {
+		empty.push(array[i]);
 	}}
+console.log (empty);
 }
+
+challenge2([1,2,3,6,9]);
+
+
 
 
 
