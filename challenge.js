@@ -97,21 +97,22 @@
 // Write a function that lists all the numbers from 0 to 100; If a number is divisible by 3 console.log("Fizz"); 
 // if a number is divisible by 5, console.log("Buzz"); if a number is divisible by both 3 and 5 console.log("FizzBuzz")
 
+	 // function fizzBuzz () {
+		// 	for( var i = 0; i <101; i++){
+		// if ((i % 3 === 0) && (i % 5 === 0)) {
+		//         console.log("FizzBuzz"); }
 
-	// function fizzBuzz () {
+		//       	else if (i % 3 === 0) {
+		//         console.log("Fizz"); }
 
-	//    for( var i = 0; i <101; i++){
-	//       	console.log(i);
-	//    if (i % 3 === 0) {
-	//    		console.log("Fizz");
-	//    }
-	//    if (i % 5 === 0) {
-	//    		console.log ("Buzz");
-	//    }
-	//    if ((i % 3 === 0) && (i % 5 === 0));
-	//    	console.log ("FizzBuzz");
-	//    }
-	// }
+		//      	else if (i % 5 === 0) {
+		//         console.log("Buzz"); }
+
+		//     	else {
+		//         console.log(i);}
+		// }}
+
+		// fizzBuzz();
 
 // 7
 // Create a function that takes in a string of multiple words and returns the first word with “ish” added to the end. 
@@ -169,11 +170,11 @@
 
 	// var months = ["May","June","July","August"];
 
-	// function numbers(item) {
+	// function month(item) {
 	//   console.log(item);
 	// }
 
-	// months.forEach(numbers);
+	// months.forEach(month);
 
 
 // 11 
