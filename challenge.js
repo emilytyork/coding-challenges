@@ -198,4 +198,160 @@
 
 	// checkNums ([1,5,3,4,6])
 
+// 12  
+// add the sum from the array below:
+	//  var obj = {
+	//  	name: 'torture',
+	//  	miniObj: {
+	//  		name: 'Minitorture',
+	//  		array: [{numbers: [['a','b','c','d'], [1,2,3,4,5,6,7,8,9], ['fun']]}]
+	//  	}
+	//  }
+
+	// var sum = 0;
+	// var array = (obj.miniObj.array[0].numbers[1]);
+
+	// 	for (var i = 0; i < array.length; i++) {
+	// 		sum = sum + array[i];
+	// 	}
+	// console.log(sum);
+
+
+	// function adding (array) {
+	// 	var sum = 0;
+	// 	for(var i = 0; i < array.length; i++){
+	// 		sum = sum + array[i]
+	// 	}
+	// 		console.log(sum)
+
+
+// 13
+// Write a function that takes an array of numbers and creates a new array with
+// only the even numbers from the first array. For instance,
+// if you pass your function an array of [1, 3, 4, 6, 9], your function
+//  should return [4, 6].
+
+	// var array = [1,2,3,4];
+	// var newArray = [];
+
+	// function evenNumbers () {
+	// 	for(var i=0; i<array.length; i++) {
+	// 	if (array[i] % 2 === 0) {
+	// 		newArray.push(array[i]);
+	// 	}}
+	// console.log(newArray)
+	// }
+
+	// evenNumbers();
+
+// 14
+// write a function that takes an array of names and returns a whole string of 
+// these names with comma and the word ‘and’ before the last name;
+// [“John”, “George”, “James”, “Anna”] ---> “John, George, James, and Anna”;
+
+// pull out last word add and to front put back in array
+
+
+// var names = ["Emily","Dan","Laura","Andrew"];
+
+//  function and () {
+// 	var andName = (", and " + names.pop());
+// 	var newNames=(names.join(", "))
+// 	var nameSentence = newNames + andName;
+// console.log(nameSentence);
+// }
+
+// and();
+
+// // 15
+// // write a function named stringy that takes a size and returns a
+// // string of alternating ‘1s’ and ‘0s’. the string should start with a 1.
+// // a string with size 6 should return
+// //  :‘101010’. with size 4 should return : ‘1010’. with size 12 should
+// // return : ‘101010101010’. The size will always be positive and will only use
+// // whole numbers.
+
+
+//   function stringy (size) {
+//   	var array = [];
+//   	var halfSize = size/2;
+ 
+//  if (size % 2 === 0 ) {
+//  	for (i = 0; i<halfSize; i++){
+//  		array.push("10");
+//  }
+//  }
+//  console.log(array.join(""))
+// }
+//  stringy(6)
+
+
+// 16
+// Given a non-negative integer, return an array containing a list
+// of independent digits in reverse order. Example: 348597 => [7,9,5,8,4,3]
+
+// function numbers (a) {
+// 	var newNumbers = [];
+//     var digits= a.toString().split('').reverse();
+
+//     for (var i=0; i<digits.length;i++){
+//     	newNumbers.push(parseInt(digits[i]));
+//     }
+
+//  console.log(newNumbers);
+// }
+//  numbers(325245);
+
+// 17
+// given a string, create a function that returns the last character in that string.
+// examples:
+// “morning” --> g
+// “winter” --> r
+
+	// function lastLetter (word) {
+	// 	var splitWord= word.split('').pop();
+	// console.log(splitWord)
+	// }
+
+	// lastLetter("winter");
+
+// 18
+// write a function that takes in a math operator as a string followed by two parameters, x and y, then
+//  return the result of that math operation applied to the two parameters.
+//  examples:
+//  math(“*”, 2, 3) ---> 6
+//  math(“+”, 4, 5) ---> 9
+// math(“/”, 5, 5) ---> 1
+// math(“*”, 4, 5) ---> 20
+
+// function math (operator,x,y) {
+
+// if (operator === "+"){
+// 	console.log(x+y);
+// }
+
+// else if (operator === "-"){
+// 	console.log(x-y);
+// }
+
+// else if (operator === "*"){
+// 	console.log(x*y);
+// }
+
+// else if (operator === "/"){
+// 	console.log(x/y);
+// }
+
+// }
+
+
+
+
+
+
+
+
+
+
+
 
